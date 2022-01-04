@@ -7,7 +7,7 @@
 
 每次執行ngrok都要將config.ini的server name修改。
 
-並且line developer的linebot的webhook URL也要修改，
+並且[line developer](https://developers.line.biz/en/)的linebot的webhook URL也要修改，
 修改成 "config.ini的server name" + "/callback"。
 
 ===================================================================================================================
