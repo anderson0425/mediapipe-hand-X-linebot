@@ -1,6 +1,17 @@
 # mediapipe-hand-X-linebot
 這是我把mediapipe手勢辨識跟linebot結合
 
+需自行修改config.ini為自己的linebot資料，才能執行這篇。
+
+同時也要自己下載ngrok(要是linux 32-bit版本)，並且開啟ngrok。
+
+每次執行ngrok都要將config.ini的server name修改。
+
+並且line developer的linebot的webhook URL也要修改，
+修改成 "config.ini的server name" + "/callback"。
+
+===================================================================================================================
+
 1.當大拇指跟食指伸出時，會拍一張照但不辨識人臉，linebot傳照片給line user
 
 2.當食指跟中指伸出，會拍一張照且辨識人臉，linebot傳照片給line user
