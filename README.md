@@ -3,7 +3,7 @@
 
 需自行修改config.ini為自己的linebot資料，才能執行這篇。
 
-同時也要自己下載ngrok(要是linux 32-bit版本)，並且開啟ngrok。
+同時也要自己下載[ngrok](https://dashboard.ngrok.com/login)(要是linux 32-bit版本)，並且開啟ngrok。
 
 每次執行ngrok都要將config.ini的server name修改。
 
