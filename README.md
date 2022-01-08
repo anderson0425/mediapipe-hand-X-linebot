@@ -1,6 +1,7 @@
 # mediapipe-hand-X-linebot
 
 將mediapipe手勢辨識跟linebot結合
+
 ------
 
 需自行修改config.ini為自己的linebot資料，才能執行這篇。
